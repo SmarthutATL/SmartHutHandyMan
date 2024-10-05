@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		92CF40162CB1E201006EDD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92CF3FF82CB1E1FF006EDD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CF3FFF2CB1E1FF006EDD4E;
+			remoteInfo = SmartHutHandyMan;
+		};
+		92CF40202CB1E201006EDD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92CF3FF82CB1E1FF006EDD4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CF3FFF2CB1E1FF006EDD4E;
+			remoteInfo = SmartHutHandyMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92CF40002CB1E1FF006EDD4E /* SmartHutHandyMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHutHandyMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CF40152CB1E201006EDD4E /* SmartHutHandyManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHutHandyManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CF401F2CB1E201006EDD4E /* SmartHutHandyManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHutHandyManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		92CF40022CB1E1FF006EDD4E /* SmartHutHandyMan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartHutHandyMan;
+			sourceTree = "<group>";
+		};
+		92CF40182CB1E201006EDD4E /* SmartHutHandyManTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartHutHandyManTests;
+			sourceTree = "<group>";
+		};
+		92CF40222CB1E201006EDD4E /* SmartHutHandyManUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartHutHandyManUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92CF3FFD2CB1E1FF006EDD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF40122CB1E201006EDD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF401C2CB1E201006EDD4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92CF3FF72CB1E1FF006EDD4E = {
+			isa = PBXGroup;
+			children = (
+				92CF40022CB1E1FF006EDD4E /* SmartHutHandyMan */,
+				92CF40182CB1E201006EDD4E /* SmartHutHandyManTests */,
+				92CF40222CB1E201006EDD4E /* SmartHutHandyManUITests */,
+				92CF40012CB1E1FF006EDD4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92CF40012CB1E1FF006EDD4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92CF40002CB1E1FF006EDD4E /* SmartHutHandyMan.app */,
+				92CF40152CB1E201006EDD4E /* SmartHutHandyManTests.xctest */,
+				92CF401F2CB1E201006EDD4E /* SmartHutHandyManUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92CF3FFF2CB1E1FF006EDD4E /* SmartHutHandyMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CF40292CB1E201006EDD4E /* Build configuration list for PBXNativeTarget "SmartHutHandyMan" */;
+			buildPhases = (
+				92CF3FFC2CB1E1FF006EDD4E /* Sources */,
+				92CF3FFD2CB1E1FF006EDD4E /* Frameworks */,
+				92CF3FFE2CB1E1FF006EDD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				92CF40022CB1E1FF006EDD4E /* SmartHutHandyMan */,
+			);
+			name = SmartHutHandyMan;
+			packageProductDependencies = (
+			);
+			productName = SmartHutHandyMan;
+			productReference = 92CF40002CB1E1FF006EDD4E /* SmartHutHandyMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92CF40142CB1E201006EDD4E /* SmartHutHandyManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CF402C2CB1E201006EDD4E /* Build configuration list for PBXNativeTarget "SmartHutHandyManTests" */;
+			buildPhases = (
+				92CF40112CB1E201006EDD4E /* Sources */,
+				92CF40122CB1E201006EDD4E /* Frameworks */,
+				92CF40132CB1E201006EDD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CF40172CB1E201006EDD4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92CF40182CB1E201006EDD4E /* SmartHutHandyManTests */,
+			);
+			name = SmartHutHandyManTests;
+			packageProductDependencies = (
+			);
+			productName = SmartHutHandyManTests;
+			productReference = 92CF40152CB1E201006EDD4E /* SmartHutHandyManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92CF401E2CB1E201006EDD4E /* SmartHutHandyManUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CF402F2CB1E201006EDD4E /* Build configuration list for PBXNativeTarget "SmartHutHandyManUITests" */;
+			buildPhases = (
+				92CF401B2CB1E201006EDD4E /* Sources */,
+				92CF401C2CB1E201006EDD4E /* Frameworks */,
+				92CF401D2CB1E201006EDD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CF40212CB1E201006EDD4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				92CF40222CB1E201006EDD4E /* SmartHutHandyManUITests */,
+			);
+			name = SmartHutHandyManUITests;
+			packageProductDependencies = (
+			);
+			productName = SmartHutHandyManUITests;
+			productReference = 92CF401F2CB1E201006EDD4E /* SmartHutHandyManUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92CF3FF82CB1E1FF006EDD4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					92CF3FFF2CB1E1FF006EDD4E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					92CF40142CB1E201006EDD4E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 92CF3FFF2CB1E1FF006EDD4E;
+					};
+					92CF401E2CB1E201006EDD4E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 92CF3FFF2CB1E1FF006EDD4E;
+					};
+				};
+			};
+			buildConfigurationList = 92CF3FFB2CB1E1FF006EDD4E /* Build configuration list for PBXProject "SmartHutHandyMan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92CF3FF72CB1E1FF006EDD4E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 92CF40012CB1E1FF006EDD4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92CF3FFF2CB1E1FF006EDD4E /* SmartHutHandyMan */,
+				92CF40142CB1E201006EDD4E /* SmartHutHandyManTests */,
+				92CF401E2CB1E201006EDD4E /* SmartHutHandyManUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92CF3FFE2CB1E1FF006EDD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF40132CB1E201006EDD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF401D2CB1E201006EDD4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92CF3FFC2CB1E1FF006EDD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF40112CB1E201006EDD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CF401B2CB1E201006EDD4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92CF40172CB1E201006EDD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92CF3FFF2CB1E1FF006EDD4E /* SmartHutHandyMan */;
+			targetProxy = 92CF40162CB1E201006EDD4E /* PBXContainerItemProxy */;
+		};
+		92CF40212CB1E201006EDD4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92CF3FFF2CB1E1FF006EDD4E /* SmartHutHandyMan */;
+			targetProxy = 92CF40202CB1E201006EDD4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92CF40272CB1E201006EDD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92CF40282CB1E201006EDD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92CF402A2CB1E201006EDD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartHutHandyMan/Preview Content\"";
+				DEVELOPMENT_TEAM = PSC4X56B8V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmarthutATL.SmartHutHandyMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92CF402B2CB1E201006EDD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartHutHandyMan/Preview Content\"";
+				DEVELOPMENT_TEAM = PSC4X56B8V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmarthutATL.SmartHutHandyMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92CF402D2CB1E201006EDD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSC4X56B8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmarthutATL.SmartHutHandyManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHutHandyMan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartHutHandyMan";
+			};
+			name = Debug;
+		};
+		92CF402E2CB1E201006EDD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSC4X56B8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmarthutATL.SmartHutHandyManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHutHandyMan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartHutHandyMan";
+			};
+			name = Release;
+		};
+		92CF40302CB1E201006EDD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSC4X56B8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmarthutATL.SmartHutHandyManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartHutHandyMan;
+			};
+			name = Debug;
+		};
+		92CF40312CB1E201006EDD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSC4X56B8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmarthutATL.SmartHutHandyManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartHutHandyMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92CF3FFB2CB1E1FF006EDD4E /* Build configuration list for PBXProject "SmartHutHandyMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF40272CB1E201006EDD4E /* Debug */,
+				92CF40282CB1E201006EDD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CF40292CB1E201006EDD4E /* Build configuration list for PBXNativeTarget "SmartHutHandyMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF402A2CB1E201006EDD4E /* Debug */,
+				92CF402B2CB1E201006EDD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CF402C2CB1E201006EDD4E /* Build configuration list for PBXNativeTarget "SmartHutHandyManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF402D2CB1E201006EDD4E /* Debug */,
+				92CF402E2CB1E201006EDD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CF402F2CB1E201006EDD4E /* Build configuration list for PBXNativeTarget "SmartHutHandyManUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CF40302CB1E201006EDD4E /* Debug */,
+				92CF40312CB1E201006EDD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92CF3FF82CB1E1FF006EDD4E /* Project object */;
+}
